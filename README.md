@@ -10,15 +10,6 @@
 |일정 등록    |POST  |/main/enroll       |요청 body          |등록 정보    |200 정상등록 / 404 Not Fount   |
 |일정 삭제    |DELETE|/main/delete       |요청 param 요청 body|수정 정보    |200 정상삭제 / 404 Not Fount   |
 |일정 수정    |PUT   |/main/update       |요청 param         |삭제 정보    |200 정상수정/등록|
-
-
-전체 캘린더에서 생성된 일정이 없을 경우
-404 Not Fount { "message" : "일정이 없습니다." }
-일정 조회, 일정 수정, 일정 삭제
-
-선택한 schedule_id 가 없을 경우
-400 Bad Request { "message" : "없는 일정 입니다." }
-
    
 ###  ERD
 ---
