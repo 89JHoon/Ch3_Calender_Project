@@ -24,13 +24,20 @@
                          contents
                          );
   ```
+  ```sql
+ CREATE TABLE user(user_id ,
+                         name ,
+                         user_pw ,
+                         email
+                         );
+  ```
 2.전체 일정 조회(Selete)
   ```sql
   SELETE * FROM calender;
   ```
 3.선택 일정 조회(Selete)
 ```sql
-  SELETE * FROM calender WHERE contents_no;
+SELETE * FROM calender WHERE contents_no;
 ```
 4.일정 등록(Insert)
   ```sql
