@@ -1,9 +1,4 @@
-과제 검사
-1차 
-
-
-
-# Ch3_Calender_Project
+# [Spring 7기] CH_3 일정 관리 앱 만들기 [Ch3_Calender_Project]
 
 ### API 명세서
 > 일정 관리 앱  API 설계
