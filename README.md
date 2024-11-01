@@ -1,6 +1,7 @@
 # [Spring 7기] CH_3 일정 관리 앱 만들기 [Ch3_Calender_Project]
 
 ### API 명세서
+---
 > 일정 관리 앱  API 설계
 
 | 기능 | Method | URL | request | response | 상태코드 |
