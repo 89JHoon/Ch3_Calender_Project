@@ -4,7 +4,6 @@ import dto.ScheduleDto;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import service.ScheduleService;
-import service.ScheduleServiceImpl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,11 +18,16 @@ public class ScheduleController {
     }
 
 
-    @GetMapping
+    @GetMapping("/schedule")
     public List<ScheduleDto> allScheduleList() {
 
         List<ScheduleDto> responseList = new ArrayList<>();
         return scheduleService.allScheduleList();
+    }
+
+    @GetMapping("/schedulee")
+    public String asd(){
+        return "이거 되나?";
     }
 
 }
