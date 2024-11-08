@@ -15,8 +15,12 @@ public class Schedule {
     public Schedule(ScheduleRequestDto scheduleRequestDto){
         this.name= scheduleRequestDto.getName();
         this.pw=scheduleRequestDto.getPw();
-        this.content=scheduleRequestDto.getContents();
+        this.content=scheduleRequestDto.getContent();
         this.title =scheduleRequestDto.getTitle();
         this.date=scheduleRequestDto.getDate();
+    }
+
+    public Schedule() {
+
     }
 }
