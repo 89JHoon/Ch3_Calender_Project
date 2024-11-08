@@ -6,7 +6,7 @@ import lombok.Data;
 public class ScheduleRequestDto {
     private String name;
     private String pw;
-    private String contents;
+    private String content;
     private String title;
     private String date;
 }
